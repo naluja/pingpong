@@ -1,0 +1,68 @@
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    box-shadow: -2px -25px 58px -21px rgba(0,0,0,0.45),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);  
+    
+}
+img {
+    width:500px;
+    height:300px;
+}
+.item{
+    border-bottom: 0.5px solid grey;
+}
+p{
+    font-weight: 800;
+    margin-left:10px;
+}
+span{
+    font-size: 3rem;
+    margin-left: 10px;
+}
+#instruction
+{
+    font-weight:300;
+    margin-left:10px;
+}
+button{
+    width:32%;
+    height: 50px;
+    color:white;
+    font-family: 'Outfit', sans-serif;
+    border:none;
+    border-radius: 5%;
+}
+button:hover{
+    opacity: 50%;
+}
+#playerone{
+    background-color: green;
+}
+#playertwo{
+    background-color: blue;
+}
+#reset{
+    background-color: red;
+
+}
+select, label{
+    border-radius: 40%;
+    width: 30px;
+    margin-left:10px;
+}
+#buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

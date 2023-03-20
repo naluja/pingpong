@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<title>Ping Pong</title>
+<link rel = 'stylesheet' href = 'style.css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class = 'container'>
+        <img src="pingpong.jpg" alt="pingpong">
+    <div class = 'item'>
+    <p>Ping Pong Score Keeper</p>
+    </div>
+    <div class = 'item'>
+        <span id="left">0</span><span> to </span><span id = 'right'>0</span>
+        <p id="instruction">Use the buttons to keep score.</p>
+        <label for="points">Playing to: </label>
+        <select name="points" id="points">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            </select>
+    </div>
+    <div class = 'item' id="item3">
+        <button type="button" class="game" id="playerone">Player One</button>
+        <button type="button" class="game" id="playertwo">Player Two</button>
+        <button type="button" class="game" id="reset">Reset</button>      
+    </div>
+    </div>
+   
+  
+    <script src = app.js></script>
+</body>
+</html>
